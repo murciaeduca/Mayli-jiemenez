@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONG Agua Viva - Turkana, Kenia</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-blue-50 text-gray-800">
+
+    <!-- Encabezado -->
+    <header class="bg-blue-700 text-white p-6 text-center">
+      <h1 class="text-4xl font-bold">ONG Agua Viva</h1>
+      <p class="mt-2 text-lg">Proyecto de Acceso a Agua Potable en Turkana, Kenia</p>
+    </header>
+
+    <!-- Sección de información general -->
+    <section class="p-6 max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-4">¿Por qué Turkana?</h2>
+      <p class="mb-4">
+        Turkana, una de las regiones más áridas de Kenia, sufre una grave escasez de agua potable. Sus habitantes, en su mayoría comunidades nómadas, enfrentan condiciones de vida difíciles y tienen acceso limitado a recursos básicos.
+      </p>
+      <p class="mb-4">
+        Las altas temperaturas, la sequía constante y la falta de infraestructuras hacen que el agua potable sea un lujo para muchas familias. A esto se suma una economía muy limitada basada en la ganadería y una alta tasa de pobreza.
+      </p>
+    </section>
+
+    <!-- Mapa -->
+    <section class="p-6 max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-4">Ubicación de Turkana</h2>
+      <div class="aspect-w-16 aspect-h-9 mb-4">
+        <iframe
+          class="w-full h-96 rounded-xl shadow-md"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.979902065004!2d35.5688807!3d3.7480015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x176d9e6d271a0147%3A0xfedbc1b3217ab69f!2sTurkana%2C%20Kenia!5e0!3m2!1ses!2ske!4v1713793200000"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Misión -->
+    <section class="bg-white p-6 max-w-4xl mx-auto rounded-xl shadow-md mt-6">
+      <h2 class="text-2xl font-semibold mb-4">Nuestra Misión</h2>
+      <p>
+        Nuestra ONG, Agua Viva, tiene como misión garantizar el acceso a agua potable en comunidades vulnerables. En Turkana, buscamos construir pozos, instalar sistemas de filtración y educar a la población sobre el uso sostenible del agua.
+      </p>
+    </section>
+
+    <!-- Testimonio -->
+    <section class="bg-yellow-100 p-6 max-w-4xl mx-auto rounded-xl shadow-md mt-6">
+      <h2 class="text-2xl font-semibold mb-4">Historias reales</h2>
+      <blockquote class="italic">"A veces caminamos más de 10 kilómetros para encontrar agua, y muchas veces no es segura para beber." – Amina, madre de 4 hijos en Turkana.</blockquote>
+    </section>
+
+    <!-- Créditos -->
+    <footer class="bg-blue-700 text-white text-center p-4 mt-10">
+      <p>Creado por Mayli Jiménez · Proyecto Escolar ONG 2025</p>
+    </footer>
+  </body>
+</html>
